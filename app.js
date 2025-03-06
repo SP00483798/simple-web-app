@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 4000;
 
 app.get('/', (req, res) => {
-  res.send('Hello, World! This is a simple Node.js web Docker .');
+  res.send('Hello, World! This is a simple Node.js web Docker hello.');
 });
 
 app.get('/health', (req, res) => {
